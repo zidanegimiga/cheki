@@ -20,10 +20,6 @@ const Index = () => {
   const titleRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll()
 
-  useMotionValueEvent(scrollY, "change", (latest) => {
-    console.log("Page scroll: ", latest)
-  })
-
   return (
     <Layout >
       <Hero />
