@@ -17,7 +17,7 @@ import {
   useMotionValueEvent
 } from 'framer-motion'
 
-const LandingPage = () => {
+const LHome = () => {
   const titleRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll()
 
@@ -36,4 +36,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage
+export default Home
