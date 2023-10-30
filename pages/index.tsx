@@ -17,7 +17,7 @@ import {
   useMotionValueEvent
 } from 'framer-motion'
 
-const LHome = () => {
+const Home = () => {
   const titleRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll()
 
