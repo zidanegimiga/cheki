@@ -1,5 +1,4 @@
 import type { AppProps } from 'next/app';
-import Layout from '../components/Layout';
 import localFont from "next/font/local";
 import { Inter } from 'next/font/google';
 import "../styles/global.css";
@@ -15,7 +14,7 @@ const interFont = Inter({
 const raxon = localFont({
     src: [
         {
-            path: "../public/raxonRegular.woff2",
+            path: "../../public/raxonRegular.woff2",
         },
     ],
 });

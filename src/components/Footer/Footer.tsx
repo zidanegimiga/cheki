@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styles from './Footer.module.scss';
 import CustomButton from '../Button';
-import Logo from "../../public/blueLogo.svg"
-import VectorBG from "../../public/FooterBG.svg"
+import Logo from "../../../public/blueLogo.svg"
+import VectorBG from "../../../public/FooterBG.svg"
 import { useRouter } from 'next/router';
 
 const Footer = () => {

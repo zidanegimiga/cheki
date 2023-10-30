@@ -1,7 +1,6 @@
-import Link from 'next/link'
 import React from 'react';
 import styles from "./Nav.module.scss"
-import Logo from "../public/Group 14.svg"
+import Logo from "../../public/Group 14.svg"
 import CustomButton from './Button';
 import { useRouter } from 'next/router';
 

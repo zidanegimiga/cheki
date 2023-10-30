@@ -1,11 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from "./styles.module.scss";
-import NeuralNetwork from "../../public/eos-icons_neural-network.svg";
-import Filter from "../../public/clarity_filter-line.svg";
-import Feature from "../../public/carbon_ibm-process-mining.svg";
-import Pattern from "../../public/eos-icons_patterns-outlined.svg";
-import Action from "../../public/eos-icons_action-chains.svg";
-import Loop from "../../public/twemoji_curly-loop.svg";
 import { Grid, Heading, Section, Text } from '@radix-ui/themes';
 import { AnimatePresence, motion, useAnimation } from 'framer-motion';
 import { useInView } from "react-intersection-observer";
