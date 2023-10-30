@@ -128,7 +128,7 @@ const Privacy = () => {
 
             < AnimatePresence >
                 <Section size={{ initial: '1', md: '3' }}>
-                    <Grid columns={{ initial: '1', xs: '1', sm: '2', md: '2', lg: '2' }} gapX={{ lg: '4' }} gap={{ initial: '2', xs: '1', sm: '2', md: '3', lg: '5', xl: '5' }}>
+                    <Grid columns={{ initial: '1', xs: '1', sm: '2', md: '3', lg: '4' }} gap={{ initial: '2', xs: '1', sm: '2', md: '3', lg: '3', xl: '4' }}>
                         <SectionCard
                             // icon={<NeuralNetwork />}
                             title={"Enhanced Creativity"}

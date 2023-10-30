@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     padding-top: 200px;
-    padding-left: 272px;
+    padding-left: 120px;
 
     @media (max-width: 1441px) {
         padding-left: 64px;
@@ -56,23 +56,25 @@
     padding: 66px 24px;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+    min-width: 400px;
+    width: 400px;
 
     @media (max-width: 1441px) {
-        min-width: 640px;
-        width: 640px;        
+        min-width: 400px;
+        width: 400px;
     }
 
-    &:hover{
+    &:hover {
         border: 1px solid #fda934;
     }
 }
 
-.sectionCardWrapper:hover > .inner {
+.sectionCardWrapper:hover>.inner {
     // background: linear-gradient(264deg, #B57626 0%, rgba(141, 91, 22, 0.00) 100%);
     // backdrop-filter: blur(80px);
 }
 
-.inner{
+.inner {
     transition: all 300ms ease-in-out;
 }
 
@@ -100,7 +102,7 @@
 }
 
 .sectionCardLeft {
-    width: 50%;
+    width: 100%;
     font-family: var(--inter-font);
     color: white;
 
