@@ -16,7 +16,7 @@ import {
   useMotionValueEvent
 } from 'framer-motion'
 
-const Home = () => {
+const Index = () => {
   const titleRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll()
 
@@ -35,4 +35,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index;
