@@ -7,11 +7,17 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@motionone/utils": "^10.16.3",
+    "@radix-ui/themes": "^2.0.0",
+    "framer-motion": "^10.16.4",
     "next": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",

@@ -1,0 +1,130 @@
+.componentWrapper {
+    padding-top: 200px;
+    padding-left: 272px;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+
+    @media (max-width: 1441px) {
+        padding-left: 64px;
+    }
+}
+.titleContainer {
+    background-color: #00878C;
+    width: 340px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 24px;
+    font-family: var(--inter-font);
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.sectionDescription {
+    font-family: var(--inter-font);
+    font-size: 28px;
+    width: 50%;
+    margin-top: 24px;
+    font-weight: 500;
+    color: white;
+
+    span {
+        font-weight: 700;
+        color: #07E4EC;
+    }
+}
+
+.cardsContainer {
+    position: relative;
+    height: fit-content;
+}
+
+.sectionCardsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    overflow-x: scroll;
+    gap: 24px;
+    padding-right: 120px;
+    padding-left: 64px;
+    scroll-behavior: smooth;
+    height: fit-content;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+}
+
+.LeftBtn,
+.RightBtn {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    /* Adjust this value as needed for vertical alignment */
+    transform: translateY(-50%);
+    padding: 16px 16px;
+    background-color: #0074d957;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: #00878C;
+    }
+}
+
+.LeftBtn {
+    left: 0;
+}
+
+.RightBtn {
+    right: 0;
+}
+
+.sectionCardWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 800px;
+    width: 700px;
+    height: 340px;
+    border-radius: 8px;
+    border: 1px solid #DE9531;
+    background: linear-gradient(264deg, #B57626 0%, rgba(141, 91, 22, 0.00) 100%);
+    backdrop-filter: blur(4px);
+    padding: 66px 24px;
+}
+
+.sectionCardLeft {
+    width: 50%;
+    font-family: var(--inter-font);
+    color: white;
+
+    h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+}
+
+.sectionCardRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

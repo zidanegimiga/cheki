@@ -1,0 +1,39 @@
+.layout {
+    min-height: 100vh;
+    // padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #8D5B16;
+    // background: linear-gradient(180deg, #784B12 0%, rgba(221, 143, 35, 0.80) 20.38%, rgba(182, 113, 25, 0.65) 35.93%, rgba(194, 118, 21, 0.50) 50.81%, rgba(187, 119, 30, 0.63) 64.27%, #D38314 101.78%);
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    overflow-x: hidden;
+    // padding: 1rem;
+}
+
+.magicButton {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+
+    &:hover {
+        transform: translateY(-16px);
+        background-color: #8D5B16;
+    }
+}
